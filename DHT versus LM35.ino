@@ -1,3 +1,8 @@
+/*
+Capta a temperatura dos sensores DHT11, DHT22 e LM35 e exibe o resultado no monitor serial
+
+
+*/
 #include "DHT.h"
 #define DHT22_PIN 2
 #define DHT11_PIN A0
