@@ -7,7 +7,7 @@ Para funcionar adequadamente, eh necessario segur o esquema de montagem do proje
 
 #include "DHT.h"
 #define DHT22_PIN A1
-#define DHT11_PIN A0
+#define DHT11_PIN A2
 #define DHT22_TYPE DHT22
 #define DHT11_TYPE DHT11
 DHT dht22(DHT22_PIN, DHT22_TYPE);
@@ -45,7 +45,7 @@ void loop() {
   delay(2000);
 
   Serial.print("LM35: - ");
-  int templm35 = (analogRead(A2) * 0.00488 * 100);
+  int templm35 = (analogRead(A0) * 0.00488 * 100);
   Serial.print("Temperatura: ");
   Serial.print(templm35);
   Serial.println(" Graus");
