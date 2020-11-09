@@ -6,7 +6,7 @@ Para funcionar adequadamente, eh necessario segur o esquema de montagem do proje
 */
 
 #include "DHT.h"
-#define DHT22_PIN 2
+#define DHT22_PIN A1
 #define DHT11_PIN A0
 #define DHT22_TYPE DHT22
 #define DHT11_TYPE DHT11
